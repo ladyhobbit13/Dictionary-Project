@@ -13,7 +13,17 @@ function App() {
           <Dictionary />
         </main>
         <footer className="app-footer text-center">
-          <small>Coded by Claire Fleischer</small>
+          <small>
+            This project was coded by{" "}
+            <a href="https://focused-borg-61dda1.netlify.app/">
+              Claire Fleischer
+            </a>{" "}
+            and is{" "}
+            <a href="https://github.com/ladyhobbit13/Dictionary-Project">
+              open-sourced on GitHub
+            </a>
+            .
+          </small>
         </footer>
       </div>
     </div>
