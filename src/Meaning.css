@@ -7,4 +7,6 @@
 .Meaning .example {
   color: #70757a;
   font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
