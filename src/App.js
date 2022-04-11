@@ -1,4 +1,4 @@
-import zaddy from "./zaddy.png";
+import letter from "./letter.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={zaddy} className="App-logo img-fluid" alt="logo" />
+          <img src={letter} className="App-logo img-fluid" alt="letters" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="app-footer text-center">
           <small>
