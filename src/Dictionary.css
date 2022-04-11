@@ -2,7 +2,7 @@
   background: white;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
 }
 
@@ -17,4 +17,10 @@
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
+}
+
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
